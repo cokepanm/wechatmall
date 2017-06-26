@@ -7,7 +7,7 @@ import { Config } from 'config.js';
 class Token {
     constructor() {
         this.verifyUrl = Config.restUrl + 'token/verify';
-        this.tokenUrl = Config.restUrl + 'token/user';
+        this.tokenUrl = Config.restUrl + 'user/wxapp/login';
     }
 
     verify() {
